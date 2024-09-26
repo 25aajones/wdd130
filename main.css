@@ -1,0 +1,21 @@
+/*CSS File for WDD 130*/
+
+body {
+    background-color: none;
+}
+
+nav a{
+    text-align: center;
+    color: black;
+    padding: 25px;
+    padding: 0px 50px 0px 50px;
+    font-size: large;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    height: 100px;
+}

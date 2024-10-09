@@ -1,0 +1,36 @@
+/* {
+    border: 2px solid red;
+}*/
+body {
+    background-color: rgb(60, 165, 235);
+}
+h1, h3 {
+    color: white;
+    text-align: center;
+}
+h1:hover {
+    color: black;
+}
+.center {
+    text-align: center;
+}
+ol {
+    display: inline-block;
+    text-align: left;
+}
+p {
+    color: white;
+    text-align: center;
+}
+.img {
+    text-align: center;
+}
+.quote {
+    font-size: 35px;
+}
+img {
+    width: 25%;
+}
+.water-mark {
+    color: black;
+}

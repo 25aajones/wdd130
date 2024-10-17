@@ -39,8 +39,8 @@ nav a:hover {
     color: white;
 }
 .book, .join {
-    background-color: rgba(190, 203, 226, .9);
-    color: black;
+    background-color: rgba(67, 105, 170, .8);
+    color: white;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -48,14 +48,14 @@ nav a:hover {
     border-radius: 5px;
 }
 .book:hover, .join:hover {
-    background-color: rgba(67, 105, 170, .7);
-    color: white;
+    background-color: rgba(190, 203, 226);
+    color: black;
 }
 #background {
     background-color: rgba(190, 203, 226, .2);
 }
 .msg {
-    background-color: rgba(173, 137, 67, .2);
+    background-color: rgba(173, 137, 67, .3);
     line-height: 1.5em;
     padding: 35px;
 }

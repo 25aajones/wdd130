@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Sofadi+One&display=swap');
+
+/*--heading-font: "Sofadi One", sans-serif;
+--paragraph-font:  "Playpen Sans", sans-serif;*/
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -8,12 +13,23 @@ nav a, #hero-msg, #hero-msg h4, .button-box, main, section {
 nav a {
     color: black;
     text-decoration: none;
+    padding: 35px;
+}
+main section img {
+    box-sizing: border-box;
 }
 #background {
     height: 725px;
 }
 body {
     background-color: rgba(190, 203, 226, .2);
+    font-family: "Playpen Sans", sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: rgba(173, 137, 67, .3);
@@ -26,6 +42,10 @@ nav a:hover {
     background-color: rgba(190, 203, 226, .9);
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: rgba(67, 105, 170, .7);
@@ -36,16 +56,30 @@ nav a:hover {
 }
 .msg {
     background-color: rgba(173, 137, 67, .3);
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg h2 {
+    font-family: "Sofadi One", sans-serif;
 }
 .msg h2, .msg p {
     color: black;
 }
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
 footer {
     background-color: rgba(86, 78, 62, .9);
     color: white;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer p {
     font-size: 1.2em;
+    padding: 25px 50px;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -59,16 +93,29 @@ footer a:hover {
 }
 .home-title {
     color: rgba(86, 78, 62);
+    font-family: "Sofadi One", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: black;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
 }
 #hero-img {
     width: 100%;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid rgba(171, 137, 67, .4);
 }

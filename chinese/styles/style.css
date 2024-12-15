@@ -89,6 +89,7 @@ body {
     display: flex;
     justify-content: right;
     padding: 5px;
+    font-weight: bold;
   }
   nav a {
     padding:1em;
@@ -100,7 +101,12 @@ body {
     color: var(--nav-link-color);
   }
   nav a:hover {
-    color: black;
+    padding: 2px;
+    border: 1px solid var(--nav-link-color);
+    margin: 7px;
+    border-radius: 8%;
+    background-color: var(--nav-link-color);
+    color: var(--nav-background-color);
   }
   p {
     font-family: var(--paragraph-font);
@@ -141,8 +147,11 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
-    color: black;
-    text-decoration: none;
+    border: 5px solid var(--nav-link-color);
+    border-radius: 8%;
+    background-color: var(--nav-link-color);
+    color: var(--nav-background-color);
+    margin: -4px;
 }
 
 /* Home Page */
@@ -151,6 +160,7 @@ footer a:hover {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px;
     margin: 50px 25px;
+    font-size: 1.2em;
 }
 .hard-group {
     display: grid;
@@ -205,6 +215,7 @@ footer a:hover {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
     margin: 0 50px;
+    font-size: 1.05em;
 }
 .character-group {
     display: grid;
@@ -225,7 +236,6 @@ footer a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 0px .5px black;
 }
 .character-group img {
     width: 85%;
@@ -254,7 +264,6 @@ footer a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    text-shadow: 0px .5px black;
 }
 .word-order-group {
     display: grid;
@@ -272,7 +281,6 @@ footer a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 0px .5px black;
 }
 .stroke-group {
     display: grid;
@@ -290,7 +298,6 @@ footer a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 0px .5px black;
 }
 .stroke-group img {
     width: 85%;
@@ -304,9 +311,9 @@ footer a:hover {
 /* Tones Page */
 .tones-grid {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
     grid-gap: 25px;
-    margin: 0 25px;
+    margin: auto;
+    font-size: 1.1em;
 }
 .tones-group {
     display: grid;
@@ -331,4 +338,25 @@ footer a:hover {
 .five {
     width: 100%;
     text-align: center;
+}
+.difficult-group h3 {
+    text-align: center;
+    text-shadow: .25px .5px black;
+    font-size: 1.3em;
+}
+.difficult-group .words {
+    text-align: center;
+    padding: 0 25px;
+}
+.english-tones-group h3 {
+    text-align: center;
+    text-shadow: .25px .5px black;
+    grid-column: 1/3;
+    font-size: 1.3em;
+}
+.english-tones-group .words {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center; 
+    padding: 0 25px;
 }
